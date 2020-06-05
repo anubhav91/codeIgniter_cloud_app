@@ -23,11 +23,11 @@ class Welcome extends CI_Controller {
    }
 	public function index()
 	{
-		$page = $this->load->model('Page_model');
+		/* $page = $this->load->model('Page_model');
 	
 		$get_pages = $this->Page_model->pages();
 		
-		$data = array('get_pages' => $get_pages);
+		$data = array('get_pages' => $get_pages); */
 		$this->load->view('welcome_message',$data);
 	}
 }
