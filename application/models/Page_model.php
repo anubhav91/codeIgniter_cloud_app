@@ -2,7 +2,7 @@
 
 class Page_model extends CI_Model {
 
- function __construct() {
+ /* function __construct() {
         parent::__construct();
         $this->load->database();//加上这句
     }
@@ -17,6 +17,6 @@ class Page_model extends CI_Model {
     $response = $q->result_array();
 
     return $response;
-  }
+  } */
 
 }
