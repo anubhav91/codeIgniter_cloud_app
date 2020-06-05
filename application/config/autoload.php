@@ -60,7 +60,7 @@ $autoload['packages'] = array();
 */
 
 $autoload['libraries'] = array();
-$autoload['libraries'] = array("database");
+/* $autoload['libraries'] = array("database"); */
 /*
 | -------------------------------------------------------------------
 |  Auto-load Drivers
