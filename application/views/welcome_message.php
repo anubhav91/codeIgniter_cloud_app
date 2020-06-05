@@ -68,15 +68,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Following is dynamic content from db</h1>
+	<h1>This is default CodeIgniter Page</h1>
 		
 	<div id="body">
-		<?php foreach($get_pages as $vals) { 
-		?>
-		Page Name : - <?php echo $vals['page_title'] ?>
-		<br/>
-		Page Description : - <?php echo $vals['page_description'] ?>
-		<?php } ?>
+		This data is coming from cloud
 		<br/>
 		<br/>
 	</div>
