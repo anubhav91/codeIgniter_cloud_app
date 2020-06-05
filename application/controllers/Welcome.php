@@ -23,6 +23,7 @@ class Welcome extends CI_Controller {
    } */
 	public function index()
 	{
+		$data = '';
 		/* $page = $this->load->model('Page_model');
 	
 		$get_pages = $this->Page_model->pages();
